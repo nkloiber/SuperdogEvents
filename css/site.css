@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #001e43;
+    --secondary-color: #c20f0f;
+    --dark-color: #292929;
+    --white-color: #dfe3e4;
+
+}
+
+main>.container {
+    padding: 60px 15px 0;
+}
+
+#content {
+    min-height: 90vh;
+}
+
+nav {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+footer .social>a {
+    color: var(--white-color);
+}
+
+footer .social>a:hover {
+    opacity: .9;
+    color: var(--secondary-color);
+}
+
+.jsicon {
+    color: rgb(226, 211, 4)
+}
+
+.bsicon {
+    color: rgb(102, 12, 161);
+}
+
+.htmlicon {
+    color: orangered;
+}
+
+.cssicon {
+    color: rgb(10, 136, 195);
+}
+
+.checklist>li i {
+    color: var(--secondary-color)
+}
+
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
